@@ -1,0 +1,19 @@
+*{
+    
+    background-color: rgb(245, 8, 8);
+}
+h3{
+    background-color: bisque;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.txt{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-display: auto;
+}
