@@ -1,175 +1,197 @@
-var a; //global scope
-let z //Block Scope
-const y=9;
+// //variable declaration
 
-var p=20;//Number
-var q="Hello"//String
-var bool=true;//Boolean
-var r;//undefined
-var s=null;//null,//bigint,//symbol
+// var a;  //global scope
+// a=10;
+// var a=15;
+// let b;  //block scope
+// b=10;
+// b=20;
+// const c=10; //block scope
 
-var arr=[1,2,3,4,5];
-console.log(arr);
+// var p = 20; //number
+// var q = "Hello";  //string
+// var bool = true;  //boolean
+// var r; //undefine
+// var s = null;  //null
+// var t = 675553489221908n;
+// var sym = Symbol("Hello");
+// var arr = [1,2,3,4,5];  //array
+// console.log(arr);
+// var obj = {
+//     name:"Aksharaa",
+//     age:18
+// };  //object
+// console.log(obj);
 
-var object={//object
-    name:"vikram",
-    age:24
+// //type of variable
+// console.log("Type of variable");
+// console.log(typeof p);
+// console.log(typeof q);
+// console.log(typeof bool);
+// console.log(typeof r);
+// console.log(typeof s);
+// console.log(typeof arr);
+// console.log(typeof obj);
+// console.log(typeof sym);
+// console.log(typeof t);
 
-}
-//arithmetic operator(+,-,*,/,%)
-var a=10;
-var b=20;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b);
-console.log(" ");
+// //operators
+// var x = 10;
+// var y = "10";
+// //arithmetic operators
+// console.log("\nArithmetic operators");
+// console.log(x+y);
+// console.log(x-y);
+// console.log(x*y);
+// console.log(x/y);
+// console.log(x%y);
 
-//relational operators(>,<,>=,<=,==,!=)
+// //relational operators
+// console.log("\nRelational operators");
+// console.log(x>y);
+// console.log(x<y);
+// console.log(x>=y);
+// console.log(x<=y);
+// console.log(x==y);
+// console.log(x!=y);
+// console.log(x===y);
+// console.log(x!==y);
 
-console.log(a>b);
-console.timeLog(a<b);
-console.log(a>=b);
-console.log(a<=b);
-console.log(a==b);
-console.log(a!=b);
-console.log(a==b);
-console.log(a!==b);
-console.log(" ");
+// //Assignment operators
+// console.log("\nAssignment operators");
+// var z = 10;
+// z+=10;
+// console.log(z);
+// z-=10;
+// console.log(z);
+// z*=10;
+// console.log(z);
+// z/=10;
+// console.log(z);
+// z%=10;
+// console.log(z);
 
+// //Logical operators
+// console.log("\nLogical operators");
+// var m = true;
+// var n = false;
+// console.log(m&&n);
+// console.log(m||n);
+// console.log(!m);
+// console.log(!n);
 
-// assignment operator(=,+=,-=,*=,/=,%=)
-a=10;
-console.log(a);
-a+=10;
-console.log(a);
-a-=10;
-console.log(a);
-a*=2;
-console.log(a);
-a%=2;
-console.log(a);
-console.log(" ");
+// //Looping
+// //for loop
+// console.log("\nFor loop");
+// for(var i=0;i<10;i++){
+//     console.log(i);
+// }
+// //while loop
+// console.log("\nWhile loop");
+// var j = 0;
+// while(j!==5){
+//     console.log(j);
+//     j++;
+// }
+// //do while loop
+// console.log("\nDo while loop");
+// do{
+//     console.log(j);
+//     j++;
+// }while(j<10);
 
-//logical operator(&&, ||, !)
-console.log(a&&b);
-console.log(a||b);
-console.log(!a);
-console.log(" ");   
+// //Conditional statements
+// console.log("\nConditional statements");
 
-//for loop
-for(initialization;condition;increment/decrement){
-    //code
-}
+// //if
+// k=10;
+// if(k>0){
+//     console.log("k is positive");
+// }
 
-for(let i=1;i<10;i++){
+// //if else
+// if(k<0){
+//     console.log("k is negative");
+// }else{
+//     console.log("k is positive");
+// }
+
+// //if else if else
+// if(k<0){
+//     console.log("k is negative");
+// }
+// else if(k==0){
+//     console.log("k is zero");
+// }
+// else{
+//     console.log("k is positive");
+// }
+
+// //switch
+// switch(k){
+//     case 0:
+//         console.log("k is zero");
+//         break;
+//     case 10:
+//         console.log("k is 10");
+//         break;
+//     default:
+//         console.log("k is not 0 or 10");
+//         break;
+// }
+// //ternary operator
+// console.log("\nTernary operator");
+// var res = k>0?"k is positive":"k is negative";
+// console.log(res);
+// var res = k>0 ?"k is positive" : k<0 ? "k is negative" : "k is zero";
+// console.log(res);
+
+// //function
+// console.log("\nFunction");
+// console.log("Function without paramenter");
+// function add(){
+//     return 10+20;
+// }
+// console.log(add());
+// console.log("Function with paramenter");
+// function add1(a,b){
+//     return a+b;
+// }
+// console.log(add1(10,20));
+// //arrow function
+// console.log("\nArrow function");
+// var add2 = (a, b) => {
+//     return a+b;
+// };
+// console.log(add2(10, 20));
+// console.log(typeof add2);
+
+// //Spread operator
+// console.log("\nSpread operator");
+// const u = [10,20,30];
+// const v = [...u,40,50];
+// console.log(u);
+// console.log(v);
+
+// //Destructuring
+// console.log("\nDestructuring");
+// const [name,age,marks] = ["Avinash",18,100];
+// console.log(name);
+// console.log(age);
+// console.log(marks);
+
+// //object
+// const {name1,age1,marks1} = {name1:"Avinash",age1:18,marks1:100};
+// console.log(name1);
+// console.log(age1);
+// console.log(marks1);
+
+//for..in(index)
+var arr = [1,2,3,4,5];
+for(var i in arr){
     console.log(i);
 }
-
-//while loop
-while(condition){
-    //code
+//for..of(values)
+for(var i of arr){
+    console.log(i);
 }
-
-var a=0;
-while(a===5){
-    a++;
-    console.log(a);
-}
-console.log(a);
-
-//conditional statements
-if(a%2===0){
-    console.log("even")
-}
-
-//if else
-if(a%2===0) console.log("even");
-else console.log("odd");
-
-
-//else if
-var mark=90;
-if(mark>=90){
-    console.log("o");
-}
-else if(mark>=70){
-    console.log("A");
-}
-else{
-    console.log("B");
-}
-
-//switch
-day=1;
-switch(day){
-    case 1:
-        {
-            console.log("Monday");
-        } 
-    case 2:
-    {
-        console.log("Tuesday");
-    }    
-    case 3:
-        {
-            console.log("Wednesday");
-        }
-        case 4:
-            {
-                console.log("Thursday");
-            }
-            case 5:
-                {
-                console.log("Friday");
-                }
-                case 6:
-                    {
-                        console.log("Saturday");
-                    }
-                    case 7:
-                        {
-                            console.log("Sunday");
-                        }
-}
-
-
-
-
-//terinery operator(?:)
-
-mark=90
-var result=(mark>90)?"O":(mark>=70)?"A":(mark>=50)?"B":"Fail";
-console.log(result);
-
-//function without parameter 
-
-function add(){
-    console.log(10+20)
-}
-add();
-
-//function with parameter
- function add(a,b){
-    console.log(a+b);
- }
- add(10,20);
-
-var addParam=(a,b)=>{
-    console.log(a+b);
-} 
-addParam(10,20);
-
-console.log(typeof addParam);
-
-
-const a=[10,20,30];
-const b=[...a,40,50];
-console.log(a);
-console.log(b);
-
-const [name,age,marks]=["vibbhu",10,100];
-console.log(name);
-console.log(age);
-console.log(marks);
