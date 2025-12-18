@@ -1,6 +1,6 @@
-arr={
-    name:"prasanth",
-    age:22,
-    city:"chennai"
-} 
-console.log(arr)
+obj = {
+    "name": "Prasanth",
+    "age": 22,
+    "city": "Chennai"
+}
+console.log(obj);
